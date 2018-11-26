@@ -668,3 +668,279 @@ LogInit: Object subsystem initialized
 [2018.11.26-02.50.46:846][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
 [2018.11.26-02.50.46:911][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
 [2018.11.26-02.50.55:071][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.01.49:025][918]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.01.49:057][918]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.01.49:057][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.01.49:058][918]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:01:49 PM)
+[2018.11.26-03.01.49:058][918]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.01.49:072][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014785s)
+[2018.11.26-03.01.49:074][918]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.01.49:074][918]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2018.11.26-03.01.49:074][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.016318s)
+[2018.11.26-03.01.49:105][918]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.01.49:117][918]LogInit: FAudioDevice initialized.
+[2018.11.26-03.01.49:150][918]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.01.49:165][918]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.01.49
+[2018.11.26-03.01.49:166][918]LogWorld: Bringing up level for play took: 0.009792
+[2018.11.26-03.01.49:190][918]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel 0.953
+[2018.11.26-03.01.49:191][918]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.02.22:952][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.02.23:014][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.02.33:368][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.02.49:486][938]BlueprintLog: New page: Compile Pinball
+[2018.11.26-03.02.49:544][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac7477600, Size=280
+[2018.11.26-03.02.49:544][938]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a4f61a480, Size=280, Default__Pinball_C Function /Engine/Transient.REINST_Pinball_C_174:ExecuteUbergraph_Pinball
+[2018.11.26-03.02.49:552][938]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a4f619580, Size=280, Default__Pinball_C Function /Game/Assets/Pinball.Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.02.50:525][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pinball" FILE="../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset" SILENT=true
+[2018.11.26-03.02.50:671][950]LogSavePackage: Save=48.94ms
+[2018.11.26-03.02.50:671][950]LogSavePackage: Moving '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Saved/Pinball86A516CE4D83D0A6B9698A92FE44CADC.tmp' to '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset'
+[2018.11.26-03.02.50:679][950]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset
+[2018.11.26-03.02.51:387][985]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.02.51:433][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.02.51:433][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.02.51:433][985]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:02:51 PM)
+[2018.11.26-03.02.51:433][985]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.02.51:458][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024808s)
+[2018.11.26-03.02.51:459][985]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.02.51:459][985]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2018.11.26-03.02.51:459][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.025823s)
+[2018.11.26-03.02.51:479][985]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a4f61a480, Size=280
+[2018.11.26-03.02.51:490][985]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.02.51:502][985]LogInit: FAudioDevice initialized.
+[2018.11.26-03.02.51:537][985]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.02.51:552][985]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.02.51
+[2018.11.26-03.02.51:553][985]LogWorld: Bringing up level for play took: 0.009563
+[2018.11.26-03.02.51:578][985]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel -0.659
+[2018.11.26-03.02.51:578][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.03.44:054][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.03.44:120][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.04.55:386][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.04.55:480][216]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.04.55:518][216]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.04.55:518][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.04.55:518][216]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:04:55 PM)
+[2018.11.26-03.04.55:519][216]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.04.55:533][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014586s)
+[2018.11.26-03.04.55:534][216]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.04.55:534][216]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2018.11.26-03.04.55:534][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.015758s)
+[2018.11.26-03.04.55:566][216]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.04.55:578][216]LogInit: FAudioDevice initialized.
+[2018.11.26-03.04.55:611][216]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.04.55:626][216]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.04.55
+[2018.11.26-03.04.55:628][216]LogWorld: Bringing up level for play took: 0.010662
+[2018.11.26-03.04.55:655][216]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel -0.582
+[2018.11.26-03.04.55:656][216]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.05.36:009][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.05.36:073][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.05.38:798][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.09.35:527][426]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.09.35:559][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.09.35:560][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.09.35:560][426]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:09:35 PM)
+[2018.11.26-03.09.35:560][426]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.09.35:577][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016560s)
+[2018.11.26-03.09.35:578][426]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.09.35:578][426]LogPlayLevel: PIE: World Init took: (0.001435s)
+[2018.11.26-03.09.35:578][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.018242s)
+[2018.11.26-03.09.35:608][426]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.09.35:622][426]LogInit: FAudioDevice initialized.
+[2018.11.26-03.09.35:652][426]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.09.35:665][426]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.09.35
+[2018.11.26-03.09.35:666][426]LogWorld: Bringing up level for play took: 0.008109
+[2018.11.26-03.09.35:688][426]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel -0.549
+[2018.11.26-03.09.35:688][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.09.44:907][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.09.44:970][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.12.08:243][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.12.08:329][415]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.12.08:362][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.12.08:363][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.12.08:363][415]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:12:08 PM)
+[2018.11.26-03.12.08:363][415]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.12.08:378][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014968s)
+[2018.11.26-03.12.08:379][415]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.12.08:379][415]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2018.11.26-03.12.08:379][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.016172s)
+[2018.11.26-03.12.08:411][415]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.12.08:422][415]LogInit: FAudioDevice initialized.
+[2018.11.26-03.12.08:457][415]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.12.08:471][415]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.12.08
+[2018.11.26-03.12.08:472][415]LogWorld: Bringing up level for play took: 0.008374
+[2018.11.26-03.12.08:495][415]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel 0.258
+[2018.11.26-03.12.08:495][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.13.13:740][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.13.13:810][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.13.14:979][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.14.27:221][349]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.14.27:252][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.14.27:252][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.14.27:253][349]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:14:27 PM)
+[2018.11.26-03.14.27:253][349]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.14.27:267][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014478s)
+[2018.11.26-03.14.27:268][349]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.14.27:268][349]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2018.11.26-03.14.27:268][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.015625s)
+[2018.11.26-03.14.27:298][349]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.14.27:313][349]LogInit: FAudioDevice initialized.
+[2018.11.26-03.14.27:345][349]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.14.27:359][349]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.14.27
+[2018.11.26-03.14.27:361][349]LogWorld: Bringing up level for play took: 0.008947
+[2018.11.26-03.14.27:386][349]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel -0.85
+[2018.11.26-03.14.27:387][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.14.48:004][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.14.48:065][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.16.47:801][862]LogEditorViewport: Clicking on Actor (LMB): BallSpawn_C (BallSpawn)
+[2018.11.26-03.16.50:844][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.16.50:925][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.16.50:957][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.16.50:957][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.16.50:958][ 44]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:16:50 PM)
+[2018.11.26-03.16.50:958][ 44]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.16.50:972][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014257s)
+[2018.11.26-03.16.50:973][ 44]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.16.50:973][ 44]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2018.11.26-03.16.50:973][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.015299s)
+[2018.11.26-03.16.51:003][ 44]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.16.51:015][ 44]LogInit: FAudioDevice initialized.
+[2018.11.26-03.16.51:052][ 44]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.16.51:066][ 44]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.16.51
+[2018.11.26-03.16.51:067][ 44]LogWorld: Bringing up level for play took: 0.008924
+[2018.11.26-03.16.51:089][ 44]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel 0.851
+[2018.11.26-03.16.51:089][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.17.19:315][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.17.19:373][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.17.26:191][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.18.28:857][121]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetSystemLibrary::K2_SetTimer' [Element not found.]
+[2018.11.26-03.18.33:750][411]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac9bd9880, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.18.41:666][  6]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac9bd9880, Size=4
+[2018.11.26-03.18.41:666][  6]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022acc60d630, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_178:ExecuteUbergraph_Pinball
+[2018.11.26-03.18.41:669][  6]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022acc60e658, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.13:511][112]BlueprintLog: New page: Compile Pinball
+[2018.11.26-03.19.13:525][112]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022acc60e658, Size=4
+[2018.11.26-03.19.13:525][112]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ad3b807d8, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_182:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.13:565][112]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a4f619580, Size=280
+[2018.11.26-03.19.13:565][112]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022aca2f8e00, Size=280, Default__Pinball_C Function /Engine/Transient.REINST_Pinball_C_194:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.13:569][112]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022acf0c7b60, Size=32, Default__Pinball_C Function /Game/Assets/Pinball.Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.13:891][112]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ad3b807d8, Size=4
+[2018.11.26-03.19.13:892][112]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022acc60d630, Size=4
+[2018.11.26-03.19.13:926][112]BlueprintLog: New page: Compile Pinball
+[2018.11.26-03.19.13:977][112]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022acf0c7b60, Size=32
+[2018.11.26-03.19.13:977][112]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac6c9ce60, Size=32, Pinball_C_87 Function /Engine/Transient.REINST_Pinball_C_210:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.13:981][112]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ad2664b80, Size=32, Default__Pinball_C Function /Game/Assets/Pinball.Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.14:291][112]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022aca2f8e00, Size=280
+[2018.11.26-03.19.14:413][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pinball" FILE="../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset" SILENT=true
+[2018.11.26-03.19.14:582][112]LogSavePackage: Save=65.25ms
+[2018.11.26-03.19.14:582][112]LogSavePackage: Moving '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Saved/PinballB5A734264E660D1DC42767B5E3F475A4.tmp' to '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset'
+[2018.11.26-03.19.14:590][112]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset
+[2018.11.26-03.19.15:034][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.19.15:201][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pinball" FILE="../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset" SILENT=true
+[2018.11.26-03.19.15:348][117]LogSavePackage: Save=48.56ms
+[2018.11.26-03.19.15:348][117]LogSavePackage: Moving '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Saved/Pinball7910955545BCD99D6F187B84DACBE029.tmp' to '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset'
+[2018.11.26-03.19.15:353][117]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset
+[2018.11.26-03.19.15:667][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.19.30:721][ 94]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac737bba8, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.33:778][287]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac737bba8, Size=4
+[2018.11.26-03.19.33:779][287]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022acc60cef0, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_214:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.33:781][287]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022acc60fd80, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.36:735][395]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022acc60fd80, Size=4
+[2018.11.26-03.19.36:735][395]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac7fa96b0, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_216:ExecuteUbergraph_Pinball
+[2018.11.26-03.19.36:740][395]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac7fa8790, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.01:693][917]LogEditorTransaction: Undo Move Node
+[2018.11.26-03.20.01:693][917]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac7fa8790, Size=4
+[2018.11.26-03.20.01:693][917]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac91a75e0, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_218:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.01:696][917]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac91a64d8, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.02:263][926]LogEditorTransaction: Undo Change Number Pin Value
+[2018.11.26-03.20.02:264][926]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac91a64d8, Size=4
+[2018.11.26-03.20.02:264][926]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a67664b10, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_220:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.02:267][926]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a67664858, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.03:113][966]LogEditorTransaction: Undo Create Pin Link
+[2018.11.26-03.20.04:298][ 51]LogEditorTransaction: Undo Create Pin Link
+[2018.11.26-03.20.04:299][ 51]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a67664858, Size=4
+[2018.11.26-03.20.04:299][ 51]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a69122050, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_222:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.04:302][ 51]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a69121d98, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.05:158][ 96]LogEditorTransaction: Undo Create Pin Link
+[2018.11.26-03.20.06:280][177]LogEditorTransaction: Undo Move Node
+[2018.11.26-03.20.06:280][177]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a69121d98, Size=4
+[2018.11.26-03.20.06:280][177]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac8585a98, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_224:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.06:283][177]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac8586708, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.07:467][233]LogEditorTransaction: Undo Promote To Variable
+[2018.11.26-03.20.07:469][233]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac8586708, Size=4
+[2018.11.26-03.20.07:469][233]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ae68e6058, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_226:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.07:472][233]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ae68e5dc8, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.08:300][263]LogEditorTransaction: Undo Paste clipboard contents
+[2018.11.26-03.20.08:301][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ae68e5dc8, Size=4
+[2018.11.26-03.20.08:301][263]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a6915eed0, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_228:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.08:303][263]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a6915edc8, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.08:982][283]LogEditorTransaction: Undo Delete current selection
+[2018.11.26-03.20.08:985][283]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a6915edc8, Size=4
+[2018.11.26-03.20.08:985][283]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac737a0d0, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_230:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.08:988][283]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac737a990, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.33:922][767]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac737a990, Size=4
+[2018.11.26-03.20.33:922][767]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a3cbcec50, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_232:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.33:926][767]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a3cbce5e0, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.35:550][838]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::Multiply_FloatFloat' [Element not found.]
+[2018.11.26-03.20.59:602][227]BlueprintLog: New page: Compile Pinball
+[2018.11.26-03.20.59:621][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a3cbce5e0, Size=4
+[2018.11.26-03.20.59:622][227]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a18b7e530, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_236:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.59:666][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ad2664b80, Size=32
+[2018.11.26-03.20.59:666][227]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac8007160, Size=32, Default__Pinball_C Function /Engine/Transient.REINST_Pinball_C_248:ExecuteUbergraph_Pinball
+[2018.11.26-03.20.59:673][227]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a67d9ffc0, Size=32, Default__Pinball_C Function /Game/Assets/Pinball.Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac91a75e0, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac7fa96b0, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022acc60cef0, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a18b7e530, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a3cbcec50, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac737a0d0, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a6915eed0, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ae68e6058, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac8585a98, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a69122050, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a67664b10, Size=4
+[2018.11.26-03.21.00:042][227]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac6c9ce60, Size=32
+[2018.11.26-03.21.00:624][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pinball" FILE="../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset" SILENT=true
+[2018.11.26-03.21.00:812][228]LogSavePackage: Save=84.96ms
+[2018.11.26-03.21.00:812][228]LogSavePackage: Moving '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Saved/Pinball938B1FB54931F6D236F7C09CCADC9CB1.tmp' to '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset'
+[2018.11.26-03.21.00:820][228]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset
+[2018.11.26-03.21.01:741][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.21.29:572][ 54]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac794e328, Size=4, Default__SKEL_Pinball_C Function /Game/Assets/Pinball.SKEL_Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.21.47:224][ 94]BlueprintLog: New page: Compile Pinball
+[2018.11.26-03.21.47:244][ 94]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac794e328, Size=4
+[2018.11.26-03.21.47:244][ 94]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022ac8370e18, Size=4, Default__SKEL_Pinball_C Function /Engine/Transient.REINST_SKEL_Pinball_C_254:ExecuteUbergraph_Pinball
+[2018.11.26-03.21.47:291][ 94]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a67d9ffc0, Size=32
+[2018.11.26-03.21.47:291][ 94]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a8ce359a0, Size=32, Pinball_C_166 Function /Engine/Transient.REINST_Pinball_C_266:ExecuteUbergraph_Pinball
+[2018.11.26-03.21.47:299][ 94]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022a1494c140, Size=32, Default__Pinball_C Function /Game/Assets/Pinball.Pinball_C:ExecuteUbergraph_Pinball
+[2018.11.26-03.21.47:669][ 94]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac8007160, Size=32
+[2018.11.26-03.21.47:669][ 94]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022ac8370e18, Size=4
+[2018.11.26-03.21.48:125][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pinball" FILE="../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset" SILENT=true
+[2018.11.26-03.21.48:282][ 98]LogSavePackage: Save=70.02ms
+[2018.11.26-03.21.48:282][ 98]LogSavePackage: Moving '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Saved/Pinball966CB5FD42F3BF613826D2A57471346A.tmp' to '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset'
+[2018.11.26-03.21.48:290][ 98]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Assets/Pinball.uasset
+[2018.11.26-03.21.48:873][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-03.21.55:406][448]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-03.21.55:435][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.21.55:435][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-03.21.55:435][448]PIE: New page: PIE session: SushiLevel (Nov 25, 2018, 5:21:55 PM)
+[2018.11.26-03.21.55:435][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SushiLevel
+[2018.11.26-03.21.55:450][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014130s)
+[2018.11.26-03.21.55:450][448]LogAIModule: Creating AISystem for world SushiLevel
+[2018.11.26-03.21.55:450][448]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2018.11.26-03.21.55:451][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SushiLevel.SushiLevel to /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel (0.015050s)
+[2018.11.26-03.21.55:469][448]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022a8ce359a0, Size=32
+[2018.11.26-03.21.55:481][448]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-03.21.55:494][448]LogInit: FAudioDevice initialized.
+[2018.11.26-03.21.55:532][448]LogLoad: Game class is 'PinballGameMode_C'
+[2018.11.26-03.21.55:545][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SushiLevel.SushiLevel up for play (max tick rate 0) at 2018.11.25-22.21.55
+[2018.11.26-03.21.55:546][448]LogWorld: Bringing up level for play took: 0.007609
+[2018.11.26-03.21.55:568][448]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SushiLevel -0.669
+[2018.11.26-03.21.55:568][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.23.03:219][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.23.03:285][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel' with GeneratedClass '/Game/Maps/SushiLevel.SushiLevel_C' with ClassGeneratedBy '/Game/Maps/SushiLevel.SushiLevel:PersistentLevel.SushiLevel'
+[2018.11.26-03.23.04:801][760]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-03.23.05:926][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-03.23.06:173][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SushiLevel" FILE="../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Maps/SushiLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.26-03.23.06:694][806]LogSavePackage: Save=406.34ms
+[2018.11.26-03.23.06:694][806]LogSavePackage: Moving '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Saved/SushiLevelCEA318434163BAAE6ABB0D90AF31065F.tmp' to '../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Maps/SushiLevel.umap'
+[2018.11.26-03.23.06:702][806]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nate/Desktop/SushiPinball/SushiPinball/Content/Maps/SushiLevel.umap
+[2018.11.26-03.23.06:786][806]LogFileHelpers: Saving map 'SushiLevel' took 0.851
+[2018.11.26-03.23.13:607][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
